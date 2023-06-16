@@ -8,13 +8,12 @@
  */
 int main(void)
 {
-char lower, e, q;
-e= 'e';
-q= 'q';
+char lower;
 for (lower = 'a'; lower <= 'z'; lower++)
 {
-if (lower != e && lower != q)
+if (lower != 'e' && lower != 'q')
 putchar(lower);
 }
 putchar('\n');
+return (0);
 }
