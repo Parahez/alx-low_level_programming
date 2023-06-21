@@ -1,8 +1,6 @@
 #include "main.h"
 /*
- * _putchar - writes the string _putchar to stdout
- * @c: The character to print
- * main -to print _putchar in new line
+ * main - print _putchar
  * _putchar in new line
  * written by genishu
  * return:0
@@ -17,7 +15,7 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar('.');
+_putchar('\n');
 return (0);
 }
 
