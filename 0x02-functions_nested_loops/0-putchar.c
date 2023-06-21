@@ -1,8 +1,11 @@
 #include <main.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+/*
+ * _putchar - writes the string _putchar to stdout
+ * @c: The character to print
+ * main -to print _putchar in new line
+ * _putchar in new line
+ * written by genishu
+ * return:0
  */
 int main(void)
 {
@@ -14,6 +17,6 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar('\n');
 return (0);
 }
+
